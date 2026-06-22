@@ -1,0 +1,37 @@
+# ---- Data & models (produced/ingested by the notebooks, not tracked) ----
+Data/
+data/
+Models/
+models/
+*.parquet
+*.tfrecord
+*.h5
+*.keras
+*.mkv
+
+# ---- Notebook artifacts ----
+.ipynb_checkpoints/
+logs/
+
+# ---- Report intermediates ----
+report/*.md
+report/*.docx
+!report/**/*.pdf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- Secrets (never commit DB creds / tokens) ----
+.env
+*.secret
+credentials.json
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
